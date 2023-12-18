@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import './MenuListItem.css'
 import { MdKeyboardArrowDown } from "react-icons/md";
 import MenuListDropDown from "../MenuListDropDown/MenuListDropDown";
