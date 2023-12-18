@@ -1,0 +1,22 @@
+.header__nav {
+    margin-left: 110px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.header__nav-item {
+    position: relative;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.header__nav-item:last-child {
+    top: -2px;
+}
+
+.header__nav-item-icon {
+    position: absolute;
+    top: 2px;
+}

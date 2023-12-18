@@ -1,0 +1,18 @@
+.header__signIn {
+    margin-left: 35px;
+    margin-right: 20px;
+    width: 120px;
+    height: 45px;
+    background: linear-gradient(to right, #b18d84, #724421);
+    box-shadow: 0 0 16px 0 rgba(255, 88, 96, 0.3);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.header__signIn:hover {
+    background: linear-gradient(to right, #dcc0ba, #8f6d54);
+    transition: 0.4s;
+}

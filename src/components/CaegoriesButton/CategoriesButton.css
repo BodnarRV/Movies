@@ -1,0 +1,36 @@
+.categories__btn {
+    background-color: #343232;
+    border: none;
+    transition: 0.5s;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    border-left: 1px solid #484646;
+}
+
+.categories__btn::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    display: block;
+    background: linear-gradient(to right, #c97f6d, #9d4a0b);
+    top: 33px;
+    left: 20px;
+}
+
+.categories__btn::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    display: block;
+    background: linear-gradient(to right, #c97f6d, #9d4a0b);
+    top: 43px;
+    left: 20px;
+}
+
+.categories__btn:hover {
+    background-color: #363636;
+    transition: 0.5s;
+}

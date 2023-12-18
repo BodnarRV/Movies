@@ -1,0 +1,19 @@
+header {
+    padding: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.container__logo {
+    display: inline-block;
+    padding: 15px;
+    background-color: #343232;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.container__logo:hover {
+    background-color: #363636;
+    transition: 0.5s;
+}

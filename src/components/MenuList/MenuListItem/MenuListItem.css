@@ -1,0 +1,26 @@
+.header__nav-item {
+    position: relative;
+    cursor: pointer;
+    margin-left: 15px;
+    list-style: none;
+    transition: 0.4s;
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__nav-item a:hover {
+    color: #6f6464;
+    transition: 0.4s;
+}
+
+.header__link-opened {
+    color: #6f6464;
+}
+
+.header__nav-item-icon {
+    position: absolute;
+    top: 2px;
+}

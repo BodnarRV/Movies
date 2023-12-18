@@ -1,0 +1,29 @@
+.search_contaiener {
+    display: inline-block;
+    margin-left: 90px;
+    position: relative;
+}
+
+.header__input {
+    height: 30px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    background-color: #343232;
+    color: #fff;
+}
+
+.header__input:focus {
+    outline: none;
+}
+
+.search_icon {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+
+.header__input::placeholder {
+    color: #6f6666;
+}
