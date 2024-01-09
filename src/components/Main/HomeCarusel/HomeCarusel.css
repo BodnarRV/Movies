@@ -2,3 +2,11 @@
 .splide.is-rendered {
     padding: 0;
 }
+
+.home-carousel {
+    margin-top: 40px;
+}
+
+.home__title {
+    margin-bottom: 25px;
+}

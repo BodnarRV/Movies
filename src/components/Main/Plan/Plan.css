@@ -1,0 +1,22 @@
+.container__plan-title {
+    color: #fff;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 100%;
+    margin-top: 60px;
+}
+
+.container__plan {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container__plan-items {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin-top: 35px;
+}

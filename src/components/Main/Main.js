@@ -1,13 +1,20 @@
 import React from "react";
 import './MainStyles.css'
 import HomeCarusel from '../Main/HomeCarusel/HomeCarusel'
+import RecentlyUpdated from "./RecentlyUpdated/RecentlyUpdated";
+import NowWatching from "./NowWatching/NowWatching";
+import Plan from "./Plan/Plan";
+import Partners from "./Partners/Partners";
 
 function Main() {
     return (
-        <div className="container">
-            <h1 className="home__title"><span className="home__title-bolt">NEW ITEMS</span> OF THIS SEASON</h1>
+        <>
             <HomeCarusel />
-        </div>
+            <RecentlyUpdated />
+            <NowWatching />
+            <Plan />
+            <Partners />
+        </>
     )
 }
 

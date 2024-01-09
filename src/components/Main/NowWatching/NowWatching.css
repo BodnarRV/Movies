@@ -1,0 +1,13 @@
+.watching {
+    background-color: #373030;
+    border-top: 3px solid;
+    border-image: linear-gradient(90deg, #ff55a5, #ff5860) 1 0 0 0;
+}
+
+.watching__title {
+    color: #fff;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 100%;
+    margin-top: 20px;
+}

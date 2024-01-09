@@ -74,29 +74,37 @@ function HomeCarusel() {
     ]
 
     return (
-        <Splide
-            options={{
-                type: 'loop',
-                perPage: 5,
-                direction: 'ltr',
-                trimSpace: false,
-                focus: 'center',
-                arrows: false,
-                pagination: false,
-            }}
-        >
-            {caruselItemsArray?.map((item, index) => (
-                <SplideSlide key={index}>
-                    <HomeCaruselItem
-                        image={item.image}
-                        title={item.title}
-                        category={item.category}
-                        rate={item.rate}
-                        linkUrl={item.linkUrl}
-                    />
-                </SplideSlide>
-            ))}
-        </Splide>
+        <section className="home-carousel">
+            <div className="container">
+                <h1 className="home__title">
+                    <span className="home__title-bolt">NEW ITEMS</span> OF THIS SEASON
+                </h1>
+                <Splide
+                    options={{
+                        type: 'loop',
+                        perPage: 5,
+                        direction: 'ltr',
+                        trimSpace: false,
+                        focus: 'center',
+                        arrows: false,
+                        pagination: false,
+                    }}
+                >
+
+                    {caruselItemsArray?.map((item, index) => (
+                        <SplideSlide key={index}>
+                            <HomeCaruselItem
+                                image={item.image}
+                                title={item.title}
+                                category={item.category}
+                                rate={item.rate}
+                                linkUrl={item.linkUrl}
+                            />
+                        </SplideSlide>
+                    ))}
+                </Splide>
+            </div>
+        </section>
     );
 }
 

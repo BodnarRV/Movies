@@ -1,0 +1,50 @@
+.container__tab {
+    display: flex;
+    flex-direction: column;
+    background-color: #383131;
+    padding: 25px;
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    border-top: 3px solid;
+    border-image: linear-gradient(90deg, #ff55a5, #ff5860) 1 0 0 0;
+}
+
+.container__tab-plan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__tab-plan-name {
+    font-size: 26px;
+    line-height: 100%;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container__tab-plan-price {
+    font-size: 26px;
+    line-height: 100%;
+    color: #ff55a5;
+    font-weight: 400;
+    z-index: 1;
+    top: 30px;
+}
+
+.container__tab-list {}
+
+.container__tab-list-item {
+    width: 100%;
+    font-size: 16px;
+    color: #c7c7c7;
+    padding-left: 15px;
+    font-family: 'Open% Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.plan-button {
+    margin: auto;
+    height: 56px;
+    width: 100%;
+}
