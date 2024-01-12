@@ -1,0 +1,101 @@
+.container__blured {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.container__blured-loginForm {
+    background-color: #2a2424;
+    border-top: 3px solid;
+    border-image: linear-gradient(90deg, #ff55a5, #ff5860) 1 0 0 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 40px 80px;
+    margin-bottom: 300px;
+}
+
+.container__blured-loginForm-closeBtn {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 0;
+    left: 100%;
+    background-color: #2a2424;
+    border: none;
+    background-image: url("./close.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.container__blured-loginForm-tabs {}
+
+.container__blured-loginForm-logo {
+    margin: 30px auto 50px;
+}
+
+.container__blured-loginForm-loginFrom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 15px;
+}
+
+.container__blured-loginForm-email,
+.container__blured-loginForm-password,
+.container__blured-loginForm-name {
+    background-color: #2b2b31;
+    border: 1px solid transparent;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open%20Sans', sans-serif;
+    border-radius: 8px;
+    padding: 0 20px;
+}
+
+.container__blured-loginForm-loginFrom-forgotPassword {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #635858;
+    font-family: 'Open%20Sans', sans-serif;
+}
+
+.container__blured-loginForm-loginFrom-forgotPassword {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.container__blured-loginForm-loginFrom-forgotPassword a {
+    color: #544d52;
+    transition: 0.4s;
+}
+
+.container__blured-loginForm-loginFrom-forgotPassword a:hover {
+    color: #ff5860;
+    transition: 0.4s;
+}
+
+.container__blured-loginForm-loginFrom-forgotPassword {}
+
+.container__blured-loginForm-tabs {
+    width: 350px;
+}
+
+.container__blured-loginForm-loginFrom-button {
+    width: 100%;
+    margin: 0;
+}
+
+.container__blured-loginForm-loginFrom-forgotPassword {
+    text-align: center;
+}

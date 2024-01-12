@@ -1,0 +1,40 @@
+.container__checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin-right: 8px;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox:checked {
+    background-color: rgb(182, 182, 182);
+}
+
+.checkbox::before {
+    content: "✔";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    font-size: 12px;
+    visibility: hidden;
+}
+
+.checkbox:checked::before {
+    visibility: visible;
+}
+
+label {
+    color: #d1acac;
+}

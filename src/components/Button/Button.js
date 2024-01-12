@@ -1,9 +1,15 @@
 import React from "react";
 import './Button.css'
 
-function Button({ title, classNames }) {
+function Button({ title, classNames, onClick }) {
+    const handleClick = () => {
+        if (onClick) {
+            onClick();
+        }
+    }
+
     return (
-        <button className={`header__signIn ${classNames ? classNames : ''}`}>
+        <button className={`header__signIn ${classNames ? classNames : ''}`} onClick={handleClick}>
             {title}
         </button>
     )
